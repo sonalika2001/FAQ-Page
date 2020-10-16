@@ -8,7 +8,7 @@ class QuestionLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       itemCount: Data().questions.length,
-      //itemExtent: 0.2*MediaQuery.of(context).size.height,
+      
       scrollDirection: Axis.vertical,
       shrinkWrap: true,
       itemBuilder: (BuildContext context, int index) {

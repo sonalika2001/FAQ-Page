@@ -12,7 +12,7 @@ class ScreenLayout extends StatelessWidget {
             flex: 1,
             child: Padding(
               padding: EdgeInsets.symmetric(
-                vertical: 0.02 * MediaQuery.of(context).size.height,
+                vertical: 0.03 * MediaQuery.of(context).size.height,
               ),
               child: Container(
                 child: Column(
@@ -38,7 +38,7 @@ class ScreenLayout extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 5,
+            flex: 4,
             child: QuestionLayout(),
           ),
         ],

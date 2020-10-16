@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 const ktitlestyle = TextStyle(
-  color: e,
+  color: kAccentThemeColor,
   fontSize: 32,
   fontFamily: 'Bitter',
 );
@@ -47,9 +47,9 @@ const kanswerstyle = TextStyle(
   fontFamily: 'Cabin',
 );
 
-const kdividercolour = k;
+const kdividercolour = c;
 
-const kcollapseiconcolor = d;
+const kcollapseiconcolor = m;
 
 const kquestionbgstyle = BoxDecoration(
   // borderRadius: BorderRadius.only(
@@ -57,7 +57,7 @@ const kquestionbgstyle = BoxDecoration(
   //   bottomLeft: Radius.circular(20),
   // ),
   border: Border(
-    left: BorderSide(width: 6, color: d),
+    left: BorderSide(width: 3, color: k),
   ),
 );
 
@@ -78,3 +78,5 @@ const i = Color(0xffF1C0DD);
 const j = Color(0xffAF9EC9);
 
 const k = Color(0xffDA71CE);
+const l = Color(0xffFFC4D0);
+const m =Color(0xffF1C0DE);
