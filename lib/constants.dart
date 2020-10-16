@@ -22,40 +22,36 @@ const kleadingbgstyle = BoxDecoration(
   gradient: SweepGradient(
     center: FractionalOffset.bottomRight,
     startAngle: 0.0,
-    endAngle: 1.23* pi,
+    endAngle: 1.23 * pi,
     colors: [
       kbackgroundcolor,
       kPrimaryThemeColor,
       f,
-      
-      f,kPrimaryThemeColor,
+      f,
+      kPrimaryThemeColor,
       kbackgroundcolor,
     ],
-    stops: [0.0, 0.3, 0.5, 0.7,0.8, 1],
+    stops: [0.0, 0.3, 0.5, 0.7, 0.8, 1],
     transform: GradientRotation(pi),
   ),
 );
 
 const kquestionstyle = TextStyle(
   color: Colors.white,
-  fontSize: 18,
+  fontSize: 16,
   fontFamily: 'Bitter',
 );
 const kanswerstyle = TextStyle(
   color: Colors.white,
-  fontSize: 16,
+  fontSize: 14,
   fontFamily: 'Cabin',
 );
 
-const kdividercolour = h;
+const kdividercolour = k;
 
 const kcollapseiconcolor = d;
 
-
-
-const kquestionbgstyle = 
-  BoxDecoration(
-    
+const kquestionbgstyle = BoxDecoration(
   // borderRadius: BorderRadius.only(
   //   topLeft: Radius.circular(20),
   //   bottomLeft: Radius.circular(20),

@@ -7,32 +7,33 @@ class ScreenLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
-        
         children: <Widget>[
           Expanded(
             flex: 1,
             child: Padding(
-              padding: const EdgeInsets.all(20),
+              padding: EdgeInsets.symmetric(
+                vertical: 0.02 * MediaQuery.of(context).size.height,
+              ),
               child: Container(
                 child: Column(
-                    children: <Widget>[
-                      Center(
-                        child: Text(
-                          'FAQ',
-                          style: ktitlestyle,
-                        ),
+                  children: <Widget>[
+                    Center(
+                      child: Text(
+                        'FAQ',
+                        style: ktitlestyle,
                       ),
-                      SizedBox(
-                        height: 6,
+                    ),
+                    SizedBox(
+                      height: 6,
+                    ),
+                    Center(
+                      child: Text(
+                        'Frequently Asked Questions',
+                        style: ksubtitlestyle,
                       ),
-                      Center(
-                        child: Text(
-                          'Frequently Asked Questions',
-                          style: ksubtitlestyle,
-                        ),
-                      ),
-                    ],
-                  ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
