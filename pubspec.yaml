@@ -67,7 +67,7 @@ flutter:
         - asset: fonts/Cabin-Regular.ttf
     - family: Ubuntu
       fonts:
-        - asset: fonts/Ubuntu-Medium.ttf
+        - asset: fonts/Ubuntu-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
