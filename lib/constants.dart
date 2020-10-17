@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 const ktitlestyle = TextStyle(
-  color: kAccentThemeColor,
+  color: c,
   fontSize: 32,
   fontFamily: 'Bitter',
 );
@@ -38,27 +38,48 @@ const kleadingbgstyle = BoxDecoration(
 
 const kquestionstyle = TextStyle(
   color: Colors.white,
-  fontSize: 16,
-  fontFamily: 'Bitter',
+  fontSize: 18,
+  fontFamily: 'Ubuntu',
 );
 const kanswerstyle = TextStyle(
-  color: Colors.white,
-  fontSize: 14,
+  color: i,
+  fontSize: 16,
   fontFamily: 'Cabin',
 );
 
 const kdividercolour = c;
 
-const kcollapseiconcolor = m;
+const kcollapseiconcolor = k;
 
-const kquestionbgstyle = BoxDecoration(
-  // borderRadius: BorderRadius.only(
-  //   topLeft: Radius.circular(20),
-  //   bottomLeft: Radius.circular(20),
-  // ),
-  border: Border(
-    left: BorderSide(width: 3, color: k),
+
+
+var kcarddecorstyle = ShapeDecoration(
+  
+
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(25),
+    side: BorderSide(color: g,width: 0.15),
   ),
+
+  gradient: LinearGradient(
+    colors: [
+      f,
+      kPrimaryThemeColor,
+      
+      kbackgroundcolor,
+      kbackgroundcolor,
+      
+      kPrimaryThemeColor,
+      f,
+    ],
+    stops: [0.0,0.03,0.1,0.9,0.97,1],
+    begin: Alignment.bottomRight,
+    end: Alignment.topLeft,
+
+
+
+  ),
+  
 );
 
 const kbackgroundcolor = Color(0xff121212);
@@ -79,4 +100,7 @@ const j = Color(0xffAF9EC9);
 
 const k = Color(0xffDA71CE);
 const l = Color(0xffFFC4D0);
-const m =Color(0xffF1C0DE);
+const m = Color(0xffF1C0DE);
+
+const n = Color(0xffF3F3F4);
+const o = Color(0xffDADCDD);

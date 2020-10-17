@@ -11,29 +11,28 @@ class ScreenLayout extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Padding(
-              padding: EdgeInsets.symmetric(
-                vertical: 0.03 * MediaQuery.of(context).size.height,
+              padding: EdgeInsets.only(
+                top: 0.05 * MediaQuery.of(context).size.height,
+                
               ),
-              child: Container(
-                child: Column(
-                  children: <Widget>[
-                    Center(
-                      child: Text(
-                        'FAQ',
-                        style: ktitlestyle,
-                      ),
+              child: Column(
+                children: <Widget>[
+                  Center(
+                    child: Text(
+                      'FAQ',
+                      style: ktitlestyle,
                     ),
-                    SizedBox(
-                      height: 6,
+                  ),
+                  SizedBox(
+                    height: 6,
+                  ),
+                  Center(
+                    child: Text(
+                      'Frequently Asked Questions',
+                      style: ksubtitlestyle,
                     ),
-                    Center(
-                      child: Text(
-                        'Frequently Asked Questions',
-                        style: ksubtitlestyle,
-                      ),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
           ),
