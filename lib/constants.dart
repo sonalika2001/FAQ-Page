@@ -17,66 +17,39 @@ const kleadingtextstyle = TextStyle(
   color: a,
   fontFamily: 'Ubuntu',
 );
-const kleadingbgstyle = BoxDecoration(
-  shape: BoxShape.circle,
-  gradient: SweepGradient(
-    center: FractionalOffset.bottomRight,
-    startAngle: 0.0,
-    endAngle: 1.23 * pi,
-    colors: [
-      kbackgroundcolor,
-      kPrimaryThemeColor,
-      f,
-      f,
-      kPrimaryThemeColor,
-      kbackgroundcolor,
-    ],
-    stops: [0.0, 0.3, 0.5, 0.7, 0.8, 1],
-    transform: GradientRotation(pi),
-  ),
-);
 
 const kquestionstyle = TextStyle(
   color: Colors.white,
   fontSize: 18,
   fontFamily: 'Ubuntu',
 );
+
 const kanswerstyle = TextStyle(
   color: i,
   fontSize: 16,
   fontFamily: 'Cabin',
 );
 
-const kdividercolour = c;
-
 const kcollapseiconcolor = k;
 
-
-
 var kcarddecorstyle = ShapeDecoration(
-  
-
   shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(25),
-    side: BorderSide(color: g,width: 0.15),
+    side: BorderSide(color: g,width: 0.1),
   ),
 
   gradient: LinearGradient(
     colors: [
       f,
       kPrimaryThemeColor,
-      
       kbackgroundcolor,
       kbackgroundcolor,
-      
       kPrimaryThemeColor,
       f,
     ],
     stops: [0.0,0.03,0.1,0.9,0.97,1],
     begin: Alignment.bottomRight,
     end: Alignment.topLeft,
-
-
 
   ),
   
@@ -104,3 +77,23 @@ const m = Color(0xffF1C0DE);
 
 const n = Color(0xffF3F3F4);
 const o = Color(0xffDADCDD);
+
+
+// const kleadingbgstyle = BoxDecoration(
+//   shape: BoxShape.circle,
+//   gradient: SweepGradient(
+//     center: FractionalOffset.bottomRight,
+//     startAngle: 0.0,
+//     endAngle: 1.23 * pi,
+//     colors: [
+//       kbackgroundcolor,
+//       kPrimaryThemeColor,
+//       f,
+//       f,
+//       kPrimaryThemeColor,
+//       kbackgroundcolor,
+//     ],
+//     stops: [0.0, 0.3, 0.5, 0.7, 0.8, 1],
+//     transform: GradientRotation(pi),
+//   ),
+// );

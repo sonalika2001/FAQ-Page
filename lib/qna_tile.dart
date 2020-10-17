@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'constants.dart';
-import 'data.dart';
+import 'data/data.dart';
 
 class QnATile extends StatefulWidget {
   final int index;
