@@ -20,7 +20,7 @@ class QuestionLayout extends StatelessWidget {
                 padding: EdgeInsets.only(
                     left: 0.05 * MediaQuery.of(context).size.width,
                     right: 0.05 * MediaQuery.of(context).size.width,
-                    bottom: 0.05 * MediaQuery.of(context).size.height),
+                    bottom: 0.03 * MediaQuery.of(context).size.height),
                 child: Container(
                   decoration: kcarddecorstyle,
                   

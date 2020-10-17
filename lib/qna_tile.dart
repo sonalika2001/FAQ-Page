@@ -32,12 +32,12 @@ class _QnATileState extends State<QnATile> {
             initiallyExpanded: false,
             trailing: expand
                 ? Icon(
-                    Icons.remove_circle_outline,
-                    color: kcollapseiconcolor,
+                    Icons.remove_circle,
+                    color: c,
                     size: 25,
                   )
                 : Icon(
-                    Icons.add_circle_outline,
+                    Icons.add_circle,
                     color: o,
                     size: 25,
                   ),
