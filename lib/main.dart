@@ -113,7 +113,7 @@ class QuestionLayout extends StatelessWidget {
 class QnATile extends StatefulWidget {
   final int index;
 
-  QnATile({@required this.index});
+  QnATile({this.index});
 
   @override
   _QnATileState createState() => _QnATileState();
